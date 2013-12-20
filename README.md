@@ -1,7 +1,7 @@
 ##### shush
 Hush up those JSON comments.
 
-`shush` is a simple node module that allows JSON files (which may contain comments) to be read into
+`shush` is a simple node module that allows JSON files containing comments to be read into
 a module using a `require`-like syntax.
 
 ```json
