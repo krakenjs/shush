@@ -10,8 +10,11 @@
     "test": "tape test/*.js",
     "cover": "istanbul cover tape -- test/*.js"
   },
-  "repository": "",
-  "author": "Erik Toth <ertoth@paypal.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/totherik/shush.git"
+  },
+  "author": "Erik Toth <totherik@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "tape": "~2.3.2",
@@ -20,5 +23,9 @@
   "dependencies": {
     "strip-json-comments": "~0.1.1",
     "caller": "~0.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/totherik/shush/issues"
+  },
+  "homepage": "https://github.com/totherik/shush"
 }
