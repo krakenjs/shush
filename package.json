@@ -1,0 +1,24 @@
+{
+  "name": "shush",
+  "version": "0.0.0",
+  "description": "Sugar for silencing JSON comments.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*.js",
+    "cover": "istanbul cover tape -- test/*.js"
+  },
+  "repository": "",
+  "author": "Erik Toth <ertoth@paypal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "~2.3.2",
+    "istanbul": "~0.2.1"
+  },
+  "dependencies": {
+    "strip-json-comments": "~0.1.1",
+    "caller": "~0.0.1"
+  }
+}
