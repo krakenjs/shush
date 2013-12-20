@@ -5,12 +5,14 @@ Hush up those JSON comments.
 a module using a `require`-like syntax.
 
 ```json
+// jsonWithComments.js
 {
     // a property
     "myProp": "isCool"
 }
 ```
 ```javascript
+// foo.js
 var shush = require('shush'),
     config = shush('./jsonWithComments');
 
