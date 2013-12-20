@@ -1,6 +1,7 @@
 'use strict';
 
 var test = require('tape'),
+    path = require('path'),
     shush = require('../');
 
 test('shush', function (t) {
@@ -47,5 +48,7 @@ test('shush', function (t) {
     t.test('removes block comments', createSanity('./fixtures/block'));
 
     t.test('removes both line and block comments', createSanity('./fixtures/combo'));
+
+    t.test('resolves absolute file', createSanity(path.resolve('./test/fixtures/combo')))
 
 });
