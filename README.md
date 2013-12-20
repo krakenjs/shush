@@ -1,11 +1,11 @@
 ##### shush
 Hush up those JSON comments.
 
-`shush` is a simple node module that allows JSON files (which may contain comments) to read into
+`shush` is a simple node module that allows JSON files (which may contain comments) to be read into
 a module using a `require`-like syntax.
 
 ```json
-// jsonWithComments.js
+/* jsonWithComments.js */
 {
     // a property
     "myProp": "isCool"
