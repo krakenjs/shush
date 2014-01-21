@@ -7,13 +7,11 @@ var fs = require('fs'),
 
 
 function tryParse(file, json) {
-    var err;
     try {
         return JSON.parse(json);
     } catch (e) {
-        err = new Error(e.message  + ' in ' + file);
-        err.__proto__ = e.__proto__;
-        throw err;
+        e.message += ' in ' + file;
+        throw e;
     }
 }
 
