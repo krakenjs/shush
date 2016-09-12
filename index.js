@@ -5,7 +5,6 @@ var fs = require('fs'),
     caller = require('caller'),
     strip = require('strip-json-comments');
 
-
 function tryParse(file, json) {
     var err;
     try {
@@ -31,11 +30,5 @@ function shush(file) {
 
     return tryParse(abs, json);
 }
-
-
-//shush.createStream = function () {
-//
-//};
-
 
 module.exports = shush;
