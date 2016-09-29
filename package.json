@@ -17,12 +17,12 @@
   "author": "Erik Toth <totherik@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "tape": "~2.3.2",
-    "istanbul": "~0.2.1"
+    "tape": "~4.6.0",
+    "istanbul": "~0.4.5"
   },
   "dependencies": {
-    "strip-json-comments": "~0.1.1",
-    "caller": "~0.0.1"
+    "strip-json-comments": "~2.0.1",
+    "caller": "~1.0.1"
   },
   "bugs": {
     "url": "https://github.com/totherik/shush/issues"
