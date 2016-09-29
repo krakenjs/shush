@@ -26,7 +26,7 @@ function shush(file) {
     abs = require.resolve(abs);
 
     json = fs.readFileSync(abs, 'utf8');
-    json = strip(json);
+    json = strip(json, false);
 
     return tryParse(abs, json);
 }
