@@ -1,6 +1,6 @@
 {
   "name": "shush",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Sugar for silencing JSON comments.",
   "main": "index.js",
   "directories": {
