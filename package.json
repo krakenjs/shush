@@ -27,7 +27,7 @@
   },
   "dependencies": {
     "strip-json-comments": "~2.0.1",
-    "caller": "~1.0.1"
+    "caller": "^1.1.0"
   },
   "bugs": {
     "url": "https://github.com/totherik/shush/issues"
