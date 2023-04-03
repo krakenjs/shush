@@ -26,8 +26,8 @@
     "istanbul": "~0.4.5"
   },
   "dependencies": {
-    "strip-json-comments": "~2.0.1",
-    "caller": "^1.1.0"
+    "caller": "^1.1.0",
+    "strip-json-comments": "^3.1.1"
   },
   "bugs": {
     "url": "https://github.com/totherik/shush/issues"
