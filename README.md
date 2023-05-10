@@ -19,4 +19,12 @@ var shush = require('shush'),
 console.log(config); // {"myProp": "isCool"}
 ```
 
+```javascript
+// foo.js es6 modules
+import shush from 'shush';
+const config = shush('./jsonWithComments.json');
+
+console.log(config); // {"myProp": "isCool"}
+```
+
 Forthcoming feature: streaming.
